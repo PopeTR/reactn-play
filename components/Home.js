@@ -1,10 +1,11 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { Text, View } from 'react-native';
+import { globalStyles } from '../styles/globalStyles';
 
-const Home = () => {
+function Home() {
     return (
-        <View>
-            <Text>Home</Text>
+        <View style={globalStyles.container}>
+            <Text>Doggies</Text>
         </View>
     )
 }
